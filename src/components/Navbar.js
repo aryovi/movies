@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   const user = { name: "Yovi" };
   return (
-    <nav className="navbar navbar-dark bg-dark mb4">
+    <nav className="navbar navbar-dark bg-dark mb-4">
       <div className="container">
         <span className="navbar-brand">
           <h2>{user ? `Hello ${user.name}` : "Welcome@"}</h2>
