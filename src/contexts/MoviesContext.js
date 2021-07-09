@@ -1,5 +1,5 @@
 import React, { createContext } from "react";
-import initialMovies from "../FakeData/initialMovies";
+import initialMovies from "../fake_data/initialMovies";
 
 const MoviesContext = createContext();
 
