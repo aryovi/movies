@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import MovieList from "./components/MovieList";
-import { UserProvider } from "./contexts/UserContext.js";
-import { MoviesProvider } from "./contexts/MoviesContext.js";
+import UserProvider from "./providers/UserProvider";
+import MoviesProvider from "./providers/MoviesProvider";
 
 function App() {
   return (

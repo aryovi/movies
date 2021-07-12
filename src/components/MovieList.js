@@ -4,6 +4,7 @@ import Movie from "./Movie";
 
 const MovieList = () => {
   const { movies } = useContext(MoviesContext);
+
   return (
     <div className="container">
       <div className="row">

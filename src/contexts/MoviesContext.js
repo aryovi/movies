@@ -1,14 +1,5 @@
-import React, { createContext } from "react";
-import initialMovies from "../fake_data/initialMovies";
+import { createContext } from "react";
 
 const MoviesContext = createContext();
 
-const MoviesProvider = ({ children }) => {
-  const data = { movies: initialMovies };
-  return (
-    <MoviesContext.Provider value={data}>{children}</MoviesContext.Provider>
-  );
-};
-
-export { MoviesProvider };
 export default MoviesContext;

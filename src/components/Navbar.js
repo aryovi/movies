@@ -3,6 +3,7 @@ import UserContext from "../contexts/UserContext";
 
 const Navbar = () => {
   const { user, login, logout } = useContext(UserContext);
+
   return (
     <nav className="navbar navbar-dark bg-dark mb-4">
       <div className="container">
